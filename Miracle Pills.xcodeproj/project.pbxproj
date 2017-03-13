@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52B9E011E77217500DC9AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B9E001E77217500DC9AD4 /* ViewController.swift */; };
 		A5A0FB761E76E3C200162212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0FB751E76E3C200162212 /* AppDelegate.swift */; };
-		A5A0FB781E76E3C200162212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0FB771E76E3C200162212 /* ViewController.swift */; };
 		A5A0FB7B1E76E3C200162212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0FB791E76E3C200162212 /* Main.storyboard */; };
 		A5A0FB7D1E76E3C200162212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A0FB7C1E76E3C200162212 /* Assets.xcassets */; };
 		A5A0FB801E76E3C200162212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0FB7E1E76E3C200162212 /* LaunchScreen.storyboard */; };
+		A5FDC9E21E77130D00ACC67C /* StatePickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FDC9E11E77130D00ACC67C /* StatePickerDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A52B9E001E77217500DC9AD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5A0FB721E76E3C200162212 /* Miracle Pills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miracle Pills.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A0FB751E76E3C200162212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5A0FB771E76E3C200162212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5A0FB7A1E76E3C200162212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5A0FB7C1E76E3C200162212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A0FB7F1E76E3C200162212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A0FB811E76E3C200162212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FDC9E11E77130D00ACC67C /* StatePickerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatePickerDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		A5A0FB741E76E3C200162212 /* Miracle Pills */ = {
 			isa = PBXGroup;
 			children = (
+				A52B9E001E77217500DC9AD4 /* ViewController.swift */,
 				A5A0FB751E76E3C200162212 /* AppDelegate.swift */,
-				A5A0FB771E76E3C200162212 /* ViewController.swift */,
 				A5A0FB791E76E3C200162212 /* Main.storyboard */,
 				A5A0FB7C1E76E3C200162212 /* Assets.xcassets */,
 				A5A0FB7E1E76E3C200162212 /* LaunchScreen.storyboard */,
 				A5A0FB811E76E3C200162212 /* Info.plist */,
+				A5FDC9E11E77130D00ACC67C /* StatePickerDataSource.swift */,
 			);
 			path = "Miracle Pills";
 			sourceTree = "<group>";
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A0FB781E76E3C200162212 /* ViewController.swift in Sources */,
+				A52B9E011E77217500DC9AD4 /* ViewController.swift in Sources */,
+				A5FDC9E21E77130D00ACC67C /* StatePickerDataSource.swift in Sources */,
 				A5A0FB761E76E3C200162212 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Miracle Pills/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kazman.Miracle-Pills";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Miracle Pills/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kazman.Miracle-Pills";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +305,7 @@
 				A5A0FB861E76E3C200162212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
